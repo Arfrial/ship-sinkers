@@ -323,7 +323,6 @@ startBtn.onclick = () => {
 
 /* ---------- PLAYER FIRE ---------- */
 async function fireAtEnemy(e) {
-  console.log("fireAtEnemy fired", e.target);
 
   if (!battleStarted || !playerTurn) return;
 
